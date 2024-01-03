@@ -1,0 +1,14 @@
+void insertionSort(int X[], int n)
+{
+  for (int i = 1; i < n; i = i + 1)
+  {
+      int currvalue = X[i]
+      int j = i - 1
+      while (j >= 0 && X[j] > currvalue)
+      {
+          X[j + 1] = X[j]
+          j = j - 1
+      }
+      X[j + 1] = currvalue
+  }
+}
